@@ -16,8 +16,8 @@
 {container="backend"} |~ "FATAL: remaining connection slots are reserved" 
 
 // [Log Snippet]
-// {"level":"fatal", "timestamp":"2025-11-20T10:05:15Z", "msg":"DB connection failed"}
-// FATAL: remaining connection slots are reserved for non-replication superuser connections
+{"level":"fatal", "timestamp":"2025-11-20T10:05:15Z", "msg":"DB connection failed"}
+FATAL: remaining connection slots are reserved for non-replication superuser connections
 ```
 
 ## 📋 핵심 기능
