@@ -11,6 +11,14 @@
 **파일 수**: Backend 22개, Frontend 23개 (45개 JavaScript 파일)
 
 ---
+```javascript
+# Loki Query 및 결과 (CPU 고갈 시점)
+{container="backend"} |~ "FATAL: remaining connection slots are reserved" 
+
+# [Log Snippet]
+# {"level":"fatal", "timestamp":"2025-11-20T10:05:15Z", "msg":"DB connection failed"}
+# FATAL: remaining connection slots are reserved for non-replication superuser connections
+```
 
 ## 📋 핵심 기능
 
